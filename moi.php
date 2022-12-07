@@ -10,13 +10,13 @@ include('header.php');
 <?php include('sidebar.php');?>
 
 <div class="main-content">
-  <?php 
-include('navbar.php');
-?>
+
+  <?php include('navbar.php');?>
+  
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">À Propos De Moi</h2>
+          <h2 class="h2 article-title">Moi</h2>
         </header>
 
         <section class="about-text">
@@ -50,10 +50,10 @@ include('navbar.php');
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+                <h4 class="h4 service-item-title">Maquettage</h4>
 
                 <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
+                Conception des modèles de pages (maquettes) précisant toutes les indications techniques nécessaires.
                 </p>
               </div>
 
@@ -66,9 +66,9 @@ include('navbar.php');
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                <h4 class="h4 service-item-title">Application Web</h4>
                 <p class="service-item-text">
-                  High-quality development of sites at the professional level.
+                Développement de haute qualité des applications web au niveau professionnel.
                 </p>
               </div>
 
@@ -81,10 +81,10 @@ include('navbar.php');
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
+                <h4 class="h4 service-item-title">Application Mobile</h4>
 
                 <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
+                Développement d'applications pour iOS et Android.        
                 </p>
               </div>
 
@@ -93,14 +93,15 @@ include('navbar.php');
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                <!-- <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40"> -->
+                <img src="https://img.icons8.com/external-tal-revivo-fresh-tal-revivo/28/000000/external-trello-a-web-based-list-making-application-for-multi-platform-logo-fresh-tal-revivo.png" alt="trello" width="45"/>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
+                <h4 class="h4 service-item-title">Gestionn de Projet</h4>
 
                 <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
+                Organiser le déroulement d'un projet de A à Z, de sa phase de conception à sa phase finale
                 </p>
               </div>
 
@@ -117,7 +118,7 @@ include('navbar.php');
 
         <section class="testimonials">
 
-          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <h3 class="h3 testimonials-title">Témoignages</h3>
 
           <ul class="testimonials-list has-scrollbar">
 
@@ -128,15 +129,13 @@ include('navbar.php');
                   <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Fatoumata KALOGA</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  Diawara a été embauché pour concevoir des applications et des sites web. Nous avons été très satisfaits du travail effectué. Il a eu
+                     beaucoup d'expérience
+                     et est très soucieux des besoins du client.
                   </p>
                 </div>
 
@@ -152,13 +151,11 @@ include('navbar.php');
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
 
-                <div class="testimonials-text" data-testimonials-text>
+                <div class="testimonials-text" data-testimonials-text> 
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  Diawara a été embauché pour concevoir des applications et des sites web. Nous avons été très satisfaits du travail effectué. Il a eu
+                     beaucoup d'expérience
+                     et est très soucieux des besoins du client.
                   </p>
                 </div>
 
@@ -176,47 +173,30 @@ include('navbar.php');
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  Diawara a été embauché pour concevoir des applications et des sites web. Nous avons été très satisfaits du travail effectué. Il a eu
+                     beaucoup d'expérience
+                     et est très soucieux des besoins du client.
                   </p>
                 </div>
 
               </div>
+
             </li>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
+            
 
           </ul>
 
         </section>
 
 
-        <!--
+
+
+
+        <!-- 
           - testimonials modal
-        -->
+
+        
 
         <div class="modal-container" data-modal-container>
 
@@ -254,10 +234,15 @@ include('navbar.php');
 
             </div>
 
-          </section>
+          </section> 
 
         </div>
 
+
+
+
+
+      -->
 
         <!--
           - clients

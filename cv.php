@@ -16,7 +16,7 @@ include('header.php');
       <article class="resume active" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">Curriculum vitae</h2>
+          <h2 class="h2 article-title">C vitae</h2>
         </header>
 
         <section class="timeline">
