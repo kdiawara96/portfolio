@@ -35,40 +35,42 @@ include('header.php');
 
               <h4 class="h4 timeline-item-title">Orange Digital Kalanso</h4>
 
-              <span>Juin 2022 — Present</span>
+              <span>Juin 2022 — Present : Certificat</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+              ODK est une école de formation aux métiers du numérique, elle oriente les jeunes vers
+            la conception des programmes informatique (logiciel) de l'analyse jusqu'au déploiement...
+
+             
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+              <h4 class="h4 timeline-item-title">Institut Universitaire de Gestion</h4>
 
-              <span>Juin 2022 — Present</span>
+              <span>2017 — 2020 : Licence professionelle en Informatique de Gestion </span>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+              Nos connaissances informatiques qui permettent aux entreprises d'évoluer et de se développer 
+              librement en apportant des solutions numériques aux problèmes …
+
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+              <h4 class="h4 timeline-item-title">Lycée Kénédougou</h4>
 
-              <span>2002 — 2004</span>
+              <span>2016 — 2017 : Baccalauréat en science économique</span>
 
               <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
+              Vise à fournir à l'étudiant les outils nécessaires pour observer,
+             analyser et interpréter les phénomènes économiques et pour élaborer 
+             des stratégies pertinentes pour l'allocation des ressources dont la
+              société dispose.              </p>
 
             </li>
 
