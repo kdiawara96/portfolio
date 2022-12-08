@@ -33,9 +33,9 @@ include('header.php');
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+              <h4 class="h4 timeline-item-title">Orange Digital Kalanso</h4>
 
-              <span>2007 — 2008</span>
+              <span>Juin 2022 — Present</span>
 
               <p class="timeline-text">
                 Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
@@ -49,7 +49,7 @@ include('header.php');
 
               <h4 class="h4 timeline-item-title">New york academy of art</h4>
 
-              <span>2006 — 2007</span>
+              <span>Juin 2022 — Present</span>
 
               <p class="timeline-text">
                 Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
