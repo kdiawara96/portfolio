@@ -49,7 +49,7 @@
       <div class="contact-info">
         <p class="contact-title">Téléphone</p>
 
-        <a href="tel:+12133522795" class="contact-link">+(223) 83918699</a>
+        <a href="tel:+22383918699" class="contact-link">+(223) 83918699</a>
       </div>
 
     </li>

@@ -85,52 +85,90 @@ include('header.php');
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Experience</h3>
+            <h3 class="h3">Experiences</h3>
           </div>
 
           <ol class="timeline-list">
-
+<!-- ------------------------------------------WASSA TECCH-------------------------------------------- -->
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Creative director</h4>
+              <h4 class="h4 timeline-item-title">WASSA TECHNOLOGIE</h4>
 
-              <span>2015 — Present</span>
+              <span>Decembre 2021 - Mars 2022 : DÉVELOPPEUR WEB & MOBILE</span>
 
               <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
+                           
+                <p class="timeline-text"> Solution Site BSH, OMP et deux applications mobile (MyStore & Weather)</p></br>
+         
+             <ol class="timeline-list">
+
+           
+               <li class="timeline-item">
+                   <p class="timeline-text">
+                   Le Site web Bureau sahelien d’hydraulique (BSH) et l’Organisation Malienne de Psychologie (OMP) 
+                   sont deux sites vitrine représentant leur entreprise.
+                   </p>
+                </li>
+
+                <li class="timeline-item">
+                   <p class="timeline-text">
+                   MyStore est une application mobile qui permet de stocker les produits et les affichés en ordre 
+                   de cas d’urgent et par date.
+                   </p>
+                </li>
+
+                <li class="timeline-item">
+                   <p class="timeline-text">
+                   Weather est une application mobile qui permet d’avoir toutes les données météo grâce à 
+                   un API (Weather API) et en temps réel.
+                   </p>
+                </li>
+
+              </ol>
+
               </p>
 
             </li>
 
+            <!-- ----------------------------KELECE----------------------------------------------------------- -->
+
+
+            
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Art director</h4>
+              <h4 class="h4 timeline-item-title">KƐLƐCƐ</h4>
 
-              <span>2013 — 2015</span>
+              <span>MARS 2021 - JUILLET 2021 : DÉVELOPPEUR WEB & MOBILE</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                           
+                <p class="timeline-text">Solution SPORTECH</p></br>
+         
+             <ol class="timeline-list">
+
+           
+               <li class="timeline-item">
+                   <p class="timeline-text">
+                   Participation au développement du logiciel SPORTECH comme son nom l'indique combinaison 
+                   du sport et la technologie, elle permet de faire ressortir les statistiques de chaque joueur 
+                   ainsi de chaque club.
+                   </p>
+                </li>
+
+                <li class="timeline-item">
+                   <p class="timeline-text">
+                   Collection des données des joueurs en particulier et des clubs en général.
+                   </p>
+                </li>
+
+            
+              </ol>
+
               </p>
 
             </li>
 
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
+          
 
           </ol>
 
@@ -138,19 +176,19 @@ include('header.php');
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">My skills</h3>
+          <h3 class="h3 skills-title">Compétences Professionelles</h3>
 
           <ul class="skills-list content-card">
 
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
+                <h5 class="h5">Spring Boot</h5>
+                <data value="55">55%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
+                <div class="skill-progress-fill" style="width: 55%;"></div>
               </div>
 
             </li>
@@ -158,7 +196,33 @@ include('header.php');
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
+                <h5 class="h5">Java</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Kotlin</h5>
+                <data value="20">20%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 20%;"></div>
+              </div>
+
+            </li>
+  <!-- ------------------------------Wordpress -->
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
                 <data value="70">70%</data>
               </div>
 
@@ -168,32 +232,120 @@ include('header.php');
 
             </li>
 
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
+            <!-- -------------------------------------------FLUTTER --------------------------->
 
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
+                <h5 class="h5">Flutter</h5>
+                <data value="55">55%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
+                <div class="skill-progress-fill" style="width: 55%;"></div>
               </div>
 
-            </li>
+              </li>
 
+              <!-- -----------------CSS---------------------- -->
+
+              <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Css</h5>
+                <data value="55">55%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 55%;"></div>
+              </div>
+
+              </li>
+              <!-- ----------------------------------html----------------------------------- -->
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Html</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+
+                </li>
+
+              <!-- ---------------------------GIt GitHub ---------------------------- -->
+              <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Git / GitHub</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+              </li>
+
+
+               <!-- -------------------------Angular---------------------------- -->
+               <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Angular</h5>
+                <data value="45">45%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 45%;"></div>
+              </div>
+
+              </li>
+              <!-- ----------------------------IONIC---------------------- -->
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Ionic</h5>
+                  <data value="45">45%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 45%;"></div>
+                </div>
+
+                </li>
+
+                <!-- --------------------------------SQL---------------------------- -->
+                <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">SQL</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%;"></div>
+                </div>
+
+                </li>
+
+                <!-- -------------------------------FireBase ---------------------- -->
+
+                <li class="skills-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">Fire Base</h5>
+                    <data value="10">10%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 10%;"></div>
+                  </div>
+
+                  </li>
           </ul>
 
         </section>

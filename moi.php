@@ -121,7 +121,29 @@ include('header.php');
           <h3 class="h3 testimonials-title">Témoignages</h3>
 
           <ul class="testimonials-list has-scrollbar">
+          <!-- ------------------------------------------KEITA ----------------------------------- -->
 
+          <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/client0.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Boubacar KEITA</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                  Diawara a été embauché pour concevoir des applications et des sites web. Nous avons été très satisfaits du travail effectué. Il a eu
+                     beaucoup d'expérience
+                     et est très soucieux des besoins du client.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          <!-- -------------------------------FATOUMATA -------------------------------------->
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
 
