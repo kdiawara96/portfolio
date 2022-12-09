@@ -24,19 +24,19 @@ include('header.php');
               <ul class="filter-list">
 
                 <li class="filter-item">
-                  <button class="active" data-filter-btn>All</button>
+                  <button class="active" data-filter-btn>Tout</button>
                 </li>
 
                 <li class="filter-item">
-                  <button data-filter-btn>Web design</button>
+                  <button data-filter-btn>Développement Mobile</button>
                 </li>
 
                 <li class="filter-item">
-                  <button data-filter-btn>Applications</button>
+                  <button data-filter-btn>Développement Web</button>
                 </li>
 
                 <li class="filter-item">
-                  <button data-filter-btn>Web development</button>
+                  <button data-filter-btn>Maquette</button>
                 </li>
 
               </ul>
