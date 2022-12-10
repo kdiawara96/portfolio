@@ -76,42 +76,56 @@ for (let i = 0; i < selectItems.length; i++) {
 }
 
 // filter variables
-const filterItems = document.querySelectorAll("[data-filter-item]");
+// const filterItems = document.querySelectorAll("[data-filter-item]");
 
-const filterFunc = function (selectedValue) {
+// const filterFunc = function (selectedValue) {
 
-  for (let i = 0; i < filterItems.length; i++) {
+//   for (let i = 0; i < filterItems.length; i++) {
 
-    if (selectedValue === "all") {
-      filterItems[i].classList.add("active");
-    } else if (selectedValue === filterItems[i].dataset.category) {
-      filterItems[i].classList.add("active");
-    } else {
-      filterItems[i].classList.remove("active");
-    }
+//     if (selectedValue === "all") {
+//       filterItems[i].classList.add("active");
+//     } else if (selectedValue === filterItems[i].dataset.category) {
+//       filterItems[i].classList.add("active");
+//     } else {
+//       filterItems[i].classList.remove("active");
+//     }
 
-  }
+//   }
 
-}
+// }
 
-// add event in all filter button items for large screen
-let lastClickedBtn = filterBtn[0];
 
-for (let i = 0; i < filterBtn.length; i++) {
 
-  filterBtn[i].addEventListener("click", function () {
 
-    let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
-    filterFunc(selectedValue);
 
-    lastClickedBtn.classList.remove("active");
-    this.classList.add("active");
-    lastClickedBtn = this;
 
-  });
 
-}
+// // add event in all filter button items for large screen
+// let lastClickedBtn = filterBtn[0];
+
+// for (let i = 0; i < filterBtn.length; i++) {
+
+//   filterBtn[i].addEventListener("click", function () {
+
+//     let selectedValue = this.innerText.toLowerCase();
+//     selectValue.innerText = this.innerText;
+//     filterFunc(selectedValue);
+
+//     lastClickedBtn.classList.remove("active");
+//     this.classList.add("active");
+//     lastClickedBtn = this;
+
+//   });
+
+// }
+
+
+
+
+
+
+
+
 
 
 
@@ -135,25 +149,86 @@ for (let i = 0; i < formInputs.length; i++) {
 }
 
 
+//portfolio
 
-// page navigation variables
-const navigationLinks = document.querySelectorAll("[data-nav-link]");
-const pages = document.querySelectorAll("[data-page]");
 
-// add event to all nav link
-for (let i = 0; i < navigationLinks.length; i++) {
-  navigationLinks[i].addEventListener("click", function () {
 
-    for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-        pages[i].classList.add("active");
-        navigationLinks[i].classList.add("active");
-        window.scrollTo(0, 0);
-      } else {
-        pages[i].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
-      }
-    }
 
-  });
+// Java script send mail 
+
+function sendMail(){
+  var params = {
+    name: document.getElementById("name").value ,
+    email: document.getElementById("email").value,
+    message:document.getElementById('message').value,
+  };
+
+  
+const serviceID = "service_cjqy1lu";
+const templateID = "template_jmdo6on";
+
+emailjs
+.sendMail(serviceID,templateID,params)
+.then(
+  res=>{  
+    document.getElementById('name').value="";
+    document.getElementById('email').value="";
+    document.getElementById('message').value="";
+    console.log(res);
+    alert("Votre message à été  envoyé avec succes");
+  }
+).catch((err)=> console.log(err));
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // page navigation variables
+// const navigationLinks = document.querySelectorAll("[data-nav-link]");
+// const pages = document.querySelectorAll("[data-page]");
+
+// // add event to all nav link
+// for (let i = 0; i < navigationLinks.length; i++) {
+//   navigationLinks[i].addEventListener("click", function () {
+
+//     for (let i = 0; i < pages.length; i++) {
+//       if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
+//         pages[i].classList.add("active");
+//         navigationLinks[i].classList.add("active");
+//         window.scrollTo(0, 0);
+//       } else {
+//         pages[i].classList.remove("active");
+//         navigationLinks[i].classList.remove("active");
+//       }
+//     }
+
+//   });
+// }
+
+
+// (function () {
+//   [...document.querySelectorAll(".control")].forEach(button => {
+//       button.addEventListener("click", function() {
+//           document.querySelector(".active-btn").classList.remove("active-btn");
+//           this.classList.add("active-btn");
+//           document.querySelector(".active").classList.remove("active");
+//           document.getElementById(button.dataset.id).classList.add("active");
+//       })
+//   });
+//   document.querySelector(".theme-btn").addEventListener("click", () => {
+//       document.body.classList.toggle("light-mode");
+//   })
+// })();
+
+
