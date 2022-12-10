@@ -454,6 +454,11 @@ main {
   #NAVBAR
 \*-----------------------------------*/
 
+.navbar-item{
+  cursor: pointer;
+}
+
+
 .navbar {
   position: fixed;
   bottom: 0;
@@ -1626,7 +1631,9 @@ textarea.form-input::-webkit-resizer { display: none; }
     transition: var(--transition-1);
   }
 
-  .list:hover { color: var(--light-gray-70); }
+  .list:hover { 
+    cursor: pointer;
+    color: var(--light-gray-70); }
 
   .list.active { color: var(--orange-yellow-crayola); }
 
