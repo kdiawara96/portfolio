@@ -7,12 +7,14 @@ function sendMail(){
     message:document.getElementById('message').value,
     };
 
+    console.log(params);
+    alert(params.email);
 
     const serviceID = "service_cd44nmc";
     const templateID = "template_jmdo6on";
 
     emailjs
-    .sendMail(serviceID,templateID,params)
+    .send(serviceID,templateID,params,'fYjoUcDZoKkgP3oNn')
     .then(
     res=>{  
     document.getElementById('name').value= "";

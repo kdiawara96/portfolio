@@ -26,6 +26,9 @@
 
 
 
+
+
+
   <!-- envoie de mail configuration -->
   <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
@@ -37,7 +40,7 @@
         })();
       </script>
  
-     <script src="assets/js/contact.js"></script>
+    <script src="./assets/js/contact.js"></script>
 
 <!-- ----------------fin de configuration -->
   </head>
@@ -820,7 +823,10 @@
                                     <li class="list" data-filter="mq">
                                     Maquette
                                     </li>
-                    
+                                     
+                                    <li class="es">
+
+                                    </li>
                                 
                             </ul>
                     
@@ -930,9 +936,7 @@
 
                         <section class="mapbox" data-mapbox>
                         <figure>
-                            <iframe
-                            src="https://www.google.ml/maps/place/La+Famille+Diawarala+de+Chaka/@12.606922,-8.0025789,17z/data=!3m1!4b1!4m5!3m4!1s0xe51cd712707bff7:0x7e5ff702c859b03c!8m2!3d12.6069168!4d-8.000004?hl=fr"
-                            width="400" height="300" loading="lazy"></iframe>
+                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3893.625398467182!2d-8.002578925751381!3d12.606922022770313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe51cd712707bff7%3A0x7e5ff702c859b03c!2sLa%20Famille%20Diawarala%20de%20Chaka!5e0!3m2!1sfr!2sml!4v1670752930763!5m2!1sfr!2sml" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </figure>
                         </section>
 
@@ -950,7 +954,7 @@
 
                             <textarea name="message" id="message" class="form-input" placeholder="Votre Message" required data-form-input></textarea>
 
-                            <button class="form-btn" onClick="sendMail()" type="submit"  data-form-btn >
+                            <button class="form-btn" onClick="sendMail()" type="submit" disabled data-form-btn >
                             <ion-icon name="paper-plane"></ion-icon>
                             <span>Envoyez</span>
                             </button>

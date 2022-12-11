@@ -888,6 +888,17 @@ section ul .list.active{
 
 }
 
+@media (max-width: 768px){
+  section ul .list{
+  color: white;
+  }
+  .es{
+    margin-bottom: 10px;
+  }
+  .sidebar{
+    margin-bottom: 10px !important;
+  }
+}
 /* .filter-list { display: none; } */
 
 .filter-select-box {
