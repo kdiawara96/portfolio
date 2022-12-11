@@ -947,14 +947,14 @@
                         <form action="#" class="form" data-form>
 
                             <div class="input-wrapper">
-                            <input type="text" name="name" id="name" class="form-input" placeholder="Nom & Prenom" required data-form-input>
+                            <input type="text" name="name" id="name" class="form-input" placeholder="Nom & Prenom" >
 
-                            <input type="email" name="email" id="email" class="form-input" placeholder="Email" required data-form-input>
+                            <input type="email" name="email" id="email" class="form-input" placeholder="E-mail" >
                             </div>
 
-                            <textarea name="message" id="message" class="form-input" placeholder="Votre Message" required data-form-input></textarea>
+                            <textarea type="text" name="message"  id="message" class="form-input" placeholder="Votre Message" ></textarea>
 
-                            <button class="form-btn" onClick="sendMail()" type="submit" disabled data-form-btn >
+                            <button class="form-btn" onClick="sendMail()" id="f-btn" type="submit">
                             <ion-icon name="paper-plane"></ion-icon>
                             <span>Envoyez</span>
                             </button>
@@ -962,6 +962,47 @@
                         </form>
 
                         </section>
+
+                        <script>
+                          
+                                // -----------------------name -----------------------------------
+                                const formId = document.getElementById("f-btn");
+                                            const n = document.getElementById("name");
+
+                                             n.addEventListener("keyup", (e)=>{
+                                                const value = e.currentTarget.value;
+                                                formId.disabled = false;
+                                                if(value === ""){
+                                                  formId.disabled =true;
+                                                }
+                                     });
+
+                            //-----------------------------------email-------------------------------
+                    
+                                            const email = document.getElementById("email");
+
+                                             n.addEventListener("keyup", (e)=>{
+                                                const value = e.currentTarget.value;
+                                                formId.disabled = false;
+                                                if(value === ""){
+                                                  formId.disabled =true;
+                                                }
+                                     });
+
+
+                                
+                                            const message= document.getElementById("message");
+
+                                             n.addEventListener("keyup", (e)=>{
+                                                const value = e.currentTarget.value;
+                                                formId.disabled = false;
+                                                if(value === ""){
+                                                  formId.disabled =true;
+                                                }
+                                     })
+
+                                            
+                        </script>
 
                     </article>
 <!-- ----------------------------------------------end--------------------------------------------------------------- -->

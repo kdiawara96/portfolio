@@ -132,27 +132,69 @@ for (let i = 0; i < filterBtn.length; i++) {
 // contact form variables
 const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
-const formBtn = document.querySelector("[data-form-btn]");
-  
 
-const name = document.getElementById("name");
-const email = document.getElementById("email");
-const message = document.getElementById("message");
+
+
+const formId = document.getElementById("f-btn");
+const n = document.getElementById("name");
+
+
+
+for (let i = 0; i < formInputs.length; i++) {
+  formInputs[i].addEventListener("keyup", (e)=>{
+    const value = e.currentTarget.value;
+    formId.disabled = false;
+
+    if(value === ""){
+      formId.disabled =true;
+    }
+  })
+}
+
+
+// var n = document.getElementById("name");
+// var mail = document.getElementById("email");
+// var mess = document.getElementById("message");
+
+// //desactiver le button 
+
+// var btn = document.getElementById("Button");
+
+// var nom = n.trim();
+// var email = mail.trim();
+// var message = mess.trim();
+
+
+
+
+
+
+
+if(nom.length > 1 || email.value == "" || message.value == ""){
+
+  btn.disabled = true;
+
+}else{
+
+  btn.disabled = false;
+
+}
+
 
 // add event to all form input field
-for (let i = 0; i < formInputs.length; i++) {
-  
-  formInputs[i].addEventListener("input", function () {
+// for (let i = 0; i < formInputs.length; i++) {
 
-    // check form validation
-    if (form.checkValidity()) {
-      formBtn.removeAttribute("disabled");
-    } else {
-      formBtn.setAttribute("disabled", "");
-    }
+//   formInputs[i].addEventListener("input", function () {
 
-  });
-}
+//     // check form validation
+//     if (form.checkValidity()) {
+//       formBtn.removeAttribute("disabled");
+//     } else {
+//       formBtn.setAttribute("disabled", "");
+//     }
+
+//   }); 
+// }
 
 
 //portfolio
