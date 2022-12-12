@@ -14,7 +14,7 @@ function sendMail(){
     const templateID = "template_jmdo6on";
 
     emailjs
-    .send(serviceID,templateID,params,'fYjoUcDZoKkgP3oNn')
+    .send(serviceID,templateID,params)
     .then(
     res=>{  
     document.getElementById('name').value= "";
