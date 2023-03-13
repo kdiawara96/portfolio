@@ -307,18 +307,33 @@ main {
 }
 
 
+/* --------------------------Moi--------------------------------------------- */
 
-
-
+.navbarM{
+  /* border: 1px solid ; */
+  background: hsla(240, 1%, 17%, 0.75);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--jet);
+  width: 520px;
+  height: 60px;
+  border-radius: 0px 15px 0 15px;
+padding-left: 20px;
+padding-top: 10px;
+margin-bottom: 10px;
+  
+  box-shadow: var(--shadow-2);
+}
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  /* --------------------------------------------TAILLE DU SIDE BAR-------------------------------- */
+  max-height: 152px;
   overflow: hidden;
   transition: var(--transition-2);
+  padding-top: 0px !important;
 }
 
 .sidebar.active { max-height: 405px; }
